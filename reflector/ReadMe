@@ -1,0 +1,7 @@
+Maitrayee Pingale - Pings
+ASU ID: 1211206968
+
+Part 2: Reflector
+
+Program implementation command: ./reflector --interface <> --victim-ip <>  --victim-ethernet <> --reflector-ip <> --reflector-ethernet <>
+

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !driver.php
+RewriteRule ^.*\.php$ driver.php [QSA,L]

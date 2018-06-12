@@ -1,0 +1,14 @@
+Maitrayee Pingale - Pings
+ASU ID: 1211206968
+
+Part 3: C Backdoor Web Server
+
+Program implementation command: ./normal_web_server <portnumber>
+
+1.Create a listening socket which accepts a connection with it and fork a child process to service the connection.
+2.Check if the request is valid or not by making sure if it has GET HTTP/1.1 and /exec/
+3.Extract the command that comes after /exec/ and execute the command using popen
+4.If the string is encoded, decode it and then execute.
+5.Send the HTTP response back to the client browser accordingly.
+6.Handle SIGINT
+

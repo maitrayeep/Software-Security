@@ -1,0 +1,82 @@
+/%65%78%65%63/echo%20hello
+/exec/ls%20-la%20%2Fetc%20%7C%20tr%20'%20'%20'_'
+
+
+Create a listening socket
+Accept a connection with it
+Fork a child process to service the connection, whilst the parent process goes back to accept more connections.
+Read in the HTTP request
+Send the HTTP response
+Send the entity requested (e.g. an HTML document)
+
+
+Problems- 
+same connection printing more than one times
+
+Request:-
+GET /exec/ls HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:51.0) Gecko/20100101 Firefox/51.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+---------------------------------------------------------
+/else
+		{	
+			printf("inside second else\n");
+			char l2[] = "</body></html>\r\n";
+			strcat(response_ok, l2);
+			write(fd,response_ok,strlen(response_ok));
+		}
+// Check for a valid browser request	
+	p = strstr(buffer_1, " HTTP/1.1");
+	/*if (p == NULL) 
+	{
+		printf("NOT HTTP !\n");
+	} 
+	else 
+	{	
+  		*p = 0;
+  		p = NULL;	
+  		if (strncmp(buffer_1, "GET ", 4) == 0) {
+   			p = buffer_1 + 4;
+  		}
+  		if (p == NULL) 
+		{
+			printf("Unknown Request ! \n");
+		}	
+	}*/
+
+
+
+/*char *line2[3];
+		line2[0] = strtok(line[1],"/");
+		line2[1] = strtok(NULL,"/");
+		printf("######\n");
+	    	printf("%s\n", line2[1]);
+	    	printf("######\n");*/
+		
+----------------------------------------------------------
+
+1255 E University Dr,
+Tempe,
+Arizona
+85281
+
+Worked with VMware, Pune for a project on Virtualisation when in final year of under-graduation. The task was to build a Security Virtual Machine which will monitor all the traffic coming to the other VM's on the host for security breaches. The domain was completely new, concepts were unknown and resources were scarce leading to many difficulties, taking more time than estimated. Worked on setting up the infrastructure to coding for connecting the VM's and sending their logs to the browser plus documentation of the whole procedure. The platform built resulted in efficiency gain of 60%.
+
+I’m an organized and detail-oriented person, able to strategize and prioritize effectively to accomplish multiple tasks and stay calm under pressure. High on energy, confident professional with an infectious enthusiasm for learning new things.
+
+Java, Python, C, Linux, HTML, Cascading Style Sheets (CSS), Eclipse, Android Development, Representational State Transfer (REST), PowerPoint, Spring MVC, Engineering, English, Microsoft Office, Microsoft Word, C++, .NET Framework, Windows Presentation Foundation (WPF), Object-Oriented Programming (OOP), SQL, Databases
+
+
+	https://www.linkedin.com/in/maitrayeepingale
+
+I am a graduate student at Arizona State University with a year of experience in Software Development at Honeywell, India. In my under-graduation, I had an opportunity to work for VMware, India on a project based on virtualisation.
+Throughout all my experiences academic and as a professional, I have continuously learned to adapt thus helping me grow.
+I am interested in the position of an intern at your company to work on challenging and diverse projects.
+
+
+Throughout my experiences, academic and professional, I was learnt to adapt. Now a days, with so many different languages, frameworks coming up, one can't be knowledgeable about everything. Rather one should be able to adapt to the newness easily. I feel that makes me awesome, my ability to mold myself to the needs. 
